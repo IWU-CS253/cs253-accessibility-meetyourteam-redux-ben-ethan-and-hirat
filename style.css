@@ -3,16 +3,17 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
+    background: #6A9AB0;
+    
 }
 
 header {
-    background-color: rgb(239, 218, 192);
+    background-color: #001F3F;
     top: 0px;
     left: 0px;
     width: 100%;
-    background: #333;
-    color: #fff;
+    background: #001F3F ;
+    color: #EAD8B1;
     padding: 1rem 0;
     text-align: center;
 }
@@ -20,6 +21,7 @@ header {
 nav ul {
     list-style: none;
     padding: 0;
+
 }
 
 nav ul li {
@@ -28,12 +30,48 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
+    border: 2px solid #EAD8B1;
+    border-radius: 37%;
+    background-color: #EAD8B1;
+    padding: 9px;
+}
+
+.about-us {
+    list-style: none;
+    display: grid;
+    justify-content: center;
+
+}
+
+.about-intro {
+    border: 5px solid #3A6D8C;
+    background-color: #3A6D8C;
+    color: #cfcccc;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 20px;
+    height: 550px;
+    width: 550px;
+}
+
+.services {
+    text-align: left;
+    border: 5px solid #3A6D8C;
+    background-color: #3A6D8C;
+    color: #cfcccc;
+    border-radius: 15%;
+    display: grid;
+    justify-content: center;
+    padding: 20px;
 }
 
 main {
     padding: 20px;
+    text-align: center;
+    
 }
 
 footer {
@@ -42,8 +80,8 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     background: #333;
-    background-color: aquamarine;
-    color: #fff;
+    background-color: #001F3F;
+    color: #EAD8B1;
 }
