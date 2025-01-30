@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background: #6A9AB0;
+    color: #001F3F;
     
 }
 
@@ -80,7 +81,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    padding: 10px 0;
+    padding: 8px 0;
     background: #333;
     background-color: #001F3F;
     color: #EAD8B1;
